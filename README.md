@@ -42,7 +42,6 @@ This example calculates the mean and standard deviation of Sepal.Length,
 grouped by Species, using the built-in iris dataset.
 
 ``` r
-Copy code
 library(summarizeandplot)
 
 # Summarize and plot Sepal.Length by Species in the iris dataset
@@ -58,7 +57,6 @@ gallon), grouped by the number of cylinders (cyl), in the mtcars
 dataset.
 
 ``` r
-Copy code
 # Summarize and plot mpg by cyl in the mtcars dataset
 result_mtcars <- summarize_and_plot(mtcars, "cyl", "mpg")
 print(result_mtcars$summary)
@@ -71,7 +69,6 @@ If you try to use a column that doesn’t exist, the function will return
 an error, helping to prevent mistakes in column names.
 
 ``` r
-Copy code
 # This will produce an error as "missing_column" does not exist in the iris dataset
 try(summarize_and_plot(iris, "missing_column", "Sepal.Length"))
 ```
@@ -83,7 +80,6 @@ na.rm = FALSE. Here’s an example with a sample dataset containing NA
 values.
 
 ``` r
-Copy code
 # Sample dataset with NA values
 sample_data <- data.frame(
   category = c("A", "A", "B", "B", "C", "C"),
