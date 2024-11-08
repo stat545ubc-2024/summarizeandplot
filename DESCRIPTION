@@ -1,0 +1,19 @@
+Package: summarizeandplot
+Title: Summarize and Visualize Grouped Data
+Version: 0.1.0
+Authors@R: 
+    person("Gelareh", "Modara", email = "gelarehmodara@gmail.com", role = c("aut", "cre"))
+Description: This package provides functions to calculate and visualize summary statistics of grouped data.
+    It includes features for calculating the mean and standard deviation of a numeric variable,
+    grouping by a specified column, and returning both a summary table and a ggplot2-based plot with error bars.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports:
+    dplyr,
+    ggplot2,
+    stats
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
