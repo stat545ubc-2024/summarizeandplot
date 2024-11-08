@@ -17,14 +17,14 @@ output: github_document
 
 ## Installation
 
-You can install the development version of `summarizeandplot` from GitHub with:
+You can install version `0.1.0` of `summarizeandplot` from GitHub with:
 
 ```r
 # If you haven't installed devtools, install it first
 # install.packages("devtools")
 
 # Install summarizeandplot from GitHub
-devtools::install_github("gmodara/summarizeandplot", ref = "0.1.0")
+devtools::install_github("stat545ubc-2024/summarizeandplot", ref = "0.1.0")
 ```
 
 ## Usage
