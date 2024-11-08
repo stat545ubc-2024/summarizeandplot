@@ -1,5 +1,6 @@
 library(testthat)
 library(dplyr)
+library(summarizeandplot)
 
 # Define example data
 df <- data.frame(
